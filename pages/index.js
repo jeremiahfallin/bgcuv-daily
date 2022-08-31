@@ -18,15 +18,15 @@ export default function Home() {
         <Flex direction="column" gap={4}>
           <Text>
               Please complete this survey before you start building your team:<br />
-            <Link href="https://forms.gle/esnsSuvzrCbMifdF8">eSports survey</Link>
+            <Link href="https://forms.gle/esnsSuvzrCbMifdF8" color='teal.500'>eSports survey</Link>
           </Text>
           <Text>
               To play Pokemon Showdown:<br />
-          <Link href="https://play.pokemonshowdown.com">Pokemon Showdown</Link>
+          <Link href="https://play.pokemonshowdown.com" color='teal.500'>Pokemon Showdown</Link>
           </Text>
           <Text>
             If you need inspiration for your team:<br />
-          <Link href="https://www.smogon.com/roa/?format=gen2ou">
+          <Link href="https://www.smogon.com/roa/?format=gen2ou" color='teal.500'>
             Pokemon Showdown Teams
           </Link>
           </Text>
