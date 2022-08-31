@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Box, Link, Flex } from "@chakra-ui/react";
+import { Box, Link, Flex, Text } from "@chakra-ui/react";
 
 export default function Home() {
   return (
@@ -16,11 +16,20 @@ export default function Home() {
 
       <Box as="main" padding={2}>
         <Flex direction="column" gap={4}>
-          <Link href="https://forms.gle/esnsSuvzrCbMifdF8">eSports survey</Link>
+          <Text>
+              Please complete this survey before you start building your team:{" "}
+            <Link href="https://forms.gle/esnsSuvzrCbMifdF8">eSports survey</Link>
+          </Text>
+          <Text>
+              To play Pokemon Showdown:{" "}
           <Link href="https://play.pokemonshowdown.com">Pokemon Showdown</Link>
+          </Text>
+          <Text>
+            If you need inspiration for your team:{" "}
           <Link href="https://www.smogon.com/roa/?format=gen2ou">
             Pokemon Showdown Teams
           </Link>
+          </Text>
         </Flex>
       </Box>
 
