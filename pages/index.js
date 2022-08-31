@@ -17,15 +17,15 @@ export default function Home() {
       <Box as="main" padding={2}>
         <Flex direction="column" gap={4}>
           <Text>
-              Please complete this survey before you start building your team:{" "}
+              Please complete this survey before you start building your team:<br />
             <Link href="https://forms.gle/esnsSuvzrCbMifdF8">eSports survey</Link>
           </Text>
           <Text>
-              To play Pokemon Showdown:{" "}
+              To play Pokemon Showdown:<br />
           <Link href="https://play.pokemonshowdown.com">Pokemon Showdown</Link>
           </Text>
           <Text>
-            If you need inspiration for your team:{" "}
+            If you need inspiration for your team:<br />
           <Link href="https://www.smogon.com/roa/?format=gen2ou">
             Pokemon Showdown Teams
           </Link>
